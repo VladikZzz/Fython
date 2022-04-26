@@ -137,7 +137,7 @@ Follow the rules from “ **_Instructions for building theproject_** ”
 
 | **Valid** | **Invalid** |
 |-----------|-------------|
-| ![val1](https://github.com/NurbakZh/Fython/blob/main/images/image7.png)      | ![inv1]       |
+| ![val1](https://github.com/NurbakZh/Fython/blob/main/images/image7.png)      | ![inv1](https://github.com/NurbakZh/Fython/blob/main/images/image3.png)       |
 | ![val2]      | ![inv2]        |
 | ![val3]      | ![inv3]        |
 | ![val4]      | ![inv4]        |
