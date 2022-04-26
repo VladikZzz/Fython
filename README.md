@@ -138,13 +138,13 @@ Follow the rules from “ **_Instructions for building theproject_** ”
 | **Valid** | **Invalid** |
 |-----------|-------------|
 | ![val1](https://github.com/NurbakZh/Fython/blob/main/images/image7.png)      | ![inv1](https://github.com/NurbakZh/Fython/blob/main/images/image3.png)       |
-| ![val2]      | ![inv2]        |
-| ![val3]      | ![inv3]        |
-| ![val4]      | ![inv4]        |
+| ![val2](https://github.com/NurbakZh/Fython/blob/main/images/image1.png)      | ![inv2](https://github.com/NurbakZh/Fython/blob/main/images/image2.png)        |
+| ![val3](https://github.com/NurbakZh/Fython/blob/main/images/image9.png)      | ![inv3](https://github.com/NurbakZh/Fython/blob/main/images/image8.png)        |
+| ![val4](https://github.com/NurbakZh/Fython/blob/main/images/image6.png)      | ![inv4](https://github.com/NurbakZh/Fython/blob/main/images/image4.png)        |
 
 
 # Sketch of a demo program.
 
 Zoo application:
-
+![demo](https://github.com/NurbakZh/Fython/blob/main/images/image5.png)
 
