@@ -66,10 +66,10 @@
 * ! - not
 
 **Comparison:**
-*  > - greater
+*  $\gt$ - greater
 *  < - less
 *  == - equal
-*  >= - greater or equal
+*  $\ge$ - greater or equal
 *  <= - less or equal
 
 **Comment:**
