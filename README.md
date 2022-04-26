@@ -137,9 +137,10 @@ Follow the rules from “ **_Instructions for building theproject_** ”
 
 | **Valid** | **Invalid** |
 |-----------|-------------|
-| val1      | inv1        |
-| val2      | inv2        |
-| val3      | inv3        |
+| ![val1](https://github.com/NurbakZh/Fython/blob/main/images/image7.png)      | ![inv1]       |
+| ![val2]      | ![inv2]        |
+| ![val3]      | ![inv3]        |
+| ![val4]      | ![inv4]        |
 
 
 # Sketch of a demo program.
