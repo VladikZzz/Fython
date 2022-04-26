@@ -19,30 +19,30 @@
 
 # core ideas, and list of features.
 
-**Fython** - static type programming language, which willhave:
-● Base types(numeric types,string,null,etc)
-● User-defined Terms and Types
-● Standard libraries(lists - available by defaults, math - imported)
-● First-class functions
-● Nested definitions(local vars/functions)
-● Simple Constraint-Based Type Inference
-● Functions with multiple arguments
-● Sequencing
-● Records
-● General recursion
-● Tuples
-● Exceptions
+**Fython** - static type programming language, which willhave:   
+● Base types(numeric types,string,null,etc). 
+● User-defined Terms and Types.  
+● Standard libraries(lists - available by defaults, math - imported). 
+● First-class functions.  
+● Nested definitions(local vars/functions). 
+● Simple Constraint-Based Type Inference. 
+● Functions with multiple arguments. 
+● Sequencing. 
+● Records. 
+● General recursion. 
+● Tuples.     
+● Exceptions. 
 
 # Detailed description of the syntax, operational semantics, and
 
 # typing rules.
 
 **Types:**
-● Integers
-● Real numbers(doubles)
-● String
-● Lists
-● boolean
+● Integers.  
+● Real numbers(doubles).  
+● String.   
+● Lists.  
+● boolean.  
 
 
 **Variables:**
