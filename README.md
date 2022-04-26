@@ -66,11 +66,11 @@
 * ! - not
 
 **Comparison:**
-* > - greater
-* < - less
-* == - equal
-* >= - greater or equal
-* <= - less or equal
+*  > - greater
+*  < - less
+*  == - equal
+*  >= - greater or equal
+*  <= - less or equal
 
 **Comment:**
 ```
