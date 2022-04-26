@@ -20,57 +20,57 @@
 # core ideas, and list of features.
 
 **Fython** - static type programming language, which willhave:   
-● Base types(numeric types,string,null,etc). 
-● User-defined Terms and Types.  
-● Standard libraries(lists - available by defaults, math - imported). 
-● First-class functions.  
-● Nested definitions(local vars/functions). 
-● Simple Constraint-Based Type Inference. 
-● Functions with multiple arguments. 
-● Sequencing. 
-● Records. 
-● General recursion. 
-● Tuples.     
-● Exceptions. 
+* Base types(numeric types,string,null,etc). 
+* User-defined Terms and Types.  
+* Standard libraries(lists - available by defaults, math - imported). 
+* First-class functions.  
+* Nested definitions(local vars/functions). 
+* Simple Constraint-Based Type Inference. 
+* Functions with multiple arguments. 
+* Sequencing. 
+* Records. 
+* General recursion. 
+* Tuples.     
+* Exceptions. 
 
 # Detailed description of the syntax, operational semantics, and
 
 # typing rules.
 
 **Types:**
-● Integers.  
-● Real numbers(doubles).  
-● String.   
-● Lists.  
-● boolean.  
+* Integers.  
+* Real numbers(doubles).  
+* String.   
+* Lists.  
+* boolean.  
 
 
 **Variables:**
-● identifier : Type
-● identifier : Type is **value**
-● identifier = **value**
+* identifier : Type
+* identifier : Type is **value**
+* identifier = **value**
 
 **Arimethics:**
-● a + b - addition( _sum = a + b_ )
-● a - b - substraction
-● a * b - multiplication
-● a / b - division
-● a % b - mod
+* a + b - addition( _sum = a + b_ )
+* a - b - substraction
+* a * b - multiplication
+* a / b - division
+* a % b - mod
 
 **Imports:**
-● import **name_of_the_libarary**
+* import **name_of_the_libarary**
 
 **Logical Operators:**
-● & - and
-● | - or
-●! - not
+* & - and
+* | - or
+* ! - not
 
 **Comparison:**
-● > - greater
-● < - less
-● == - equal
-● >= - greater or equal
-● <= - less or equal
+* > - greater
+* < - less
+* == - equal
+* >= - greater or equal
+* <= - less or equal
 
 **Comment:**
 ```
@@ -91,13 +91,13 @@ end record
 ```
 
 **Loops:**
-● **for**
+* **for**
 ```
 for identifier in 0.. Int loop
    body
 end loop
 ```
-● **while**:
+* **while**:
 ```
 while expression loop
   body
