@@ -145,6 +145,6 @@ Follow the rules from “ **_Instructions for building theproject_** ”
 
 # Sketch of a demo program.
 
-Zoo application:
+Zoo application:     
 ![demo](https://github.com/NurbakZh/Fython/blob/main/images/image5.png)
 
