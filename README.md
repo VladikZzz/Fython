@@ -1,4 +1,4 @@
-# Project title.
+# Fython.
 
 ```
 ● Team name: Komanda
