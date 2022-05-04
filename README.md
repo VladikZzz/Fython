@@ -93,7 +93,7 @@ end record
 **Loops:**
 * **for**
 ```
-for identifier in 0.. Int loop
+for identifier in 0..Int loop
    body
 end loop
 ```
@@ -105,7 +105,7 @@ end loop
 ```
 **Functions:**
 ```
-def **identifier** (Type var, Type var....) - > **outputType** {
+def identifier (Type var, Type var....) - > outputType {
   body
 }
 ```
