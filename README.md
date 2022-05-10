@@ -17,5 +17,5 @@
 
 # Documentation of Fython programming language
 https://fan-candy-f3a.notion.site/Fython-Documentation-90fa0b93eb194c069e469baf0d9053db
-```
+
 
