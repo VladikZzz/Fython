@@ -3,7 +3,7 @@
 ```
 ● Team name: Komanda
 ● Project title: Fython
-● Language of implementation: Java
+● Language of implementation: JavaScript
 ```
 # Project team members and their preliminary roles in the project.
 
