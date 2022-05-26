@@ -1,0 +1,17 @@
+{
+  "name": "ACCC",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "fff"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mz": "^2.7.0",
+    "nearley": "^2.20.1",
+    "nearly": "^1.8.1"
+  }
+}
