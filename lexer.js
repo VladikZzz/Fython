@@ -1,3 +1,4 @@
+//moo is tokenizer module
 const moo = require('moo')
 const fs = require('mz/fs')
 
@@ -6,11 +7,14 @@ let lexer = moo.compile({
     comment: /\/\/.*?$/,
     number:  /0|[1-9][0-9]*/,
     string:  /"(?:\\["\\]|[^\n"\\])*"/,
+    true: 'true',
+    false: 'false',
     lparen:  '(',
     rparen:  ')',
     dots: ':',
     semicolon: ';',
-    arrow: '- >',
+    arrow: '=>',
+    returnF: 'return',
     greaterEqual: '>=',
     lessEqual: '<=',
     equal: '==',
@@ -25,35 +29,31 @@ let lexer = moo.compile({
     and: '&',
     or: '|',
     not: '!',
-    for: 'for',
-    if: 'if',
+    forF: 'for',
+    ifF: 'if',
     then: 'then',
-    else: 'else',
+    elseF: 'else',
     endIf: 'end if',
-    enfLoop: 'end loop',
-    while: 'while',
+    loop: 'loop',
+    endLoop: 'end loop',
+    whileF: 'while',
     def: 'def',
     is: 'is',
     leftCurl: '{',
     rightCurl: '}',
+    print: 'print',
     record: 'record',
     endRecord: 'end record',
     comma: ',',
-    dot: '.',
+    dotes: '..',
+    lsqPar: '[',
+    rsqPar: ']',
+    type: ['Int', 'Bool', 'Double', 'String'],
+    new: 'new',
     identifier: /[a-zA-Z][a-zA-Z_0-9]*/,
     NL:      { match: /\n/, lineBreaks: true },
 })
 
-async function main() {
-    const code = (await fs.readFile("example.fy")).toString();
-    lexer.reset(code);
-    while (true) {
-        const token = lexer.next();
-        if(!token) {
-            break;
-        }
-        console.log(token);
-    }
-}
+module.exports = lexer;
 
-main().catch(err => console.log(err.stack));
+
