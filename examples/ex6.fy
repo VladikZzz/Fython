@@ -6,4 +6,4 @@ factorial = (Int n) => {
    end if
 };
 
-print(factorial(3));
+print(factorial(5));
